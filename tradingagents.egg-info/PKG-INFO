@@ -1,3 +1,33 @@
+Metadata-Version: 2.4
+Name: tradingagents
+Version: 0.2.5
+Summary: TradingAgents: Multi-Agents LLM Financial Trading Framework
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain-core>=0.3.81
+Requires-Dist: backtrader>=1.9.78.123
+Requires-Dist: langchain-anthropic>=0.3.15
+Requires-Dist: langchain-experimental>=0.3.4
+Requires-Dist: langchain-google-genai>=4.0.0
+Requires-Dist: langchain-openai>=0.3.23
+Requires-Dist: langgraph>=0.4.8
+Requires-Dist: langgraph-checkpoint-sqlite>=2.0.0
+Requires-Dist: pandas>=2.3.0
+Requires-Dist: parsel>=1.10.0
+Requires-Dist: pytz>=2025.2
+Requires-Dist: questionary>=2.1.0
+Requires-Dist: redis>=6.2.0
+Requires-Dist: requests>=2.32.4
+Requires-Dist: rich>=14.0.0
+Requires-Dist: typer>=0.21.0
+Requires-Dist: setuptools>=80.9.0
+Requires-Dist: stockstats>=0.6.5
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: typing-extensions>=4.14.0
+Requires-Dist: yfinance>=0.2.63
+Dynamic: license-file
+
 <p align="center">
   <img src="assets/TauricResearch.png" style="width: 60%; height: auto;">
 </p>

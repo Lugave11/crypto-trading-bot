@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+paper_trading.log
+paper_trading_v3.log
+paper_trading_v3_restart.log
+paper_trading_live.log
+wf_usdc_trailing.log
+wf_v3_output.log
+wf_v3_results.log
+
+# Data files (large)
+data/*.csv
+data/*/*.csv
+data/*/*.json
+backups/
+
+# Test artifacts
+trailing_stop_comparison.png
+
+# State files
+paper_trading/state.json
+paper_trading_v3/state.json
+paper_trading/*.csv
+
+# Local config
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
